@@ -34,7 +34,7 @@ const Body = styled.pre`
     outline: none;
 `;
 
-const textData = 'I\'m Matt.\n$ I am a full-stack Javascript developer \n  from the UK.\n$ Why not have a scroll down and find \n  out some more.'; //eslint-disable-line
+const textData = 'My names\'s Anthony.\n$ I am a full-stack Javascript developer \n  and science-fiction nerd. \n$ Why not have a scroll down and find \n  out some more.'; //eslint-disable-line
 
 function Terminal() {
   const [text, setText] = useState('');

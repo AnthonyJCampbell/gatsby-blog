@@ -131,7 +131,7 @@ function Header({
 
         <Link to="/" style={{ boxShadow: 'none' }}>
           <DesktopMenuItem>
-            <Logo text="Matt.cat" scrolled={scrolled} />
+            <Logo text="Anthony J. Campbell" scrolled={scrolled} />
           </DesktopMenuItem>
         </Link>
 
