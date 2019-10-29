@@ -94,7 +94,7 @@ function Home({ data, location }) {
             <Button text="projects" color="#fff" background="#24292e" />
           </AnchorLink>
           <a
-            href="https://github.com/mattshardman"
+            href="https://github.com/anthonyjcampbell"
             target="_blank"
             rel="noopener noreferrer"
           >

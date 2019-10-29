@@ -27,9 +27,9 @@ const Button = styled.button`
   animation: fade 1.5s forwards 1;
 
   &:hover {
-    transform: translateY(-1px);
+    transform: translateY(-4px);
     background: ${({ background }) => background};
-    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
   }
 
   &:active,

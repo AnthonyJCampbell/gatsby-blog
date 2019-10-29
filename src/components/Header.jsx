@@ -52,7 +52,7 @@ const DesktopMenuItem = styled.a`
   font-size: 17px;
 
   &:hover {
-    color: #ff0078;
+    color: #f43b47;
   }
 `;
 
@@ -60,7 +60,7 @@ const DesktopNavOptions = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
+  width: 30%;
   transition: width 500ms;
 
   @media (max-width: 600px) {
@@ -131,7 +131,7 @@ function Header({
 
         <Link to="/" style={{ boxShadow: 'none' }}>
           <DesktopMenuItem>
-            <Logo text="Anthony J. Campbell" scrolled={scrolled} />
+            <Logo text="Anthony C." scrolled={scrolled} />
           </DesktopMenuItem>
         </Link>
 
@@ -172,14 +172,13 @@ function Header({
             );
           })}
 
-          <Avatar />
-
         </DesktopNavOptions>
       </Nav>
       {open && (
         <NavMob>
-          {menuItems.map(each => (
+          {menuItems.map((each, idx) => (
             <MobileItem
+              key={idx}
               each={each.link}
               href={each.link}
               onClick={() => setOpen(false)}
