@@ -58,7 +58,7 @@ const Mac = ({ isMobile, children }) => {
   const cameraLensSize = cw * 0.005;
   const innerCameraLensSize = cw * 0.005;
 
-  const notchWidth = cw * 0.08;
+  const notchWidth = cw * 0.12;
   const notchHeight = cw * 0.01;
 
   const baseUnderSideHeight = cw * 0.01;
@@ -82,7 +82,7 @@ const Mac = ({ isMobile, children }) => {
       <style jsx>
         {`
           .camera-section {
-            margin-top: 4px;
+            margin-top: 6px;
             height: ${cameraSectionHeight}px;
             width: ${cameraSectionWidth}px;
             display: flex;
@@ -104,7 +104,7 @@ const Mac = ({ isMobile, children }) => {
             width: ${innerCameraLensSize}px;
             height: ${innerCameraLensSize}px;
             border-radius: 50%;
-            background: rgb(30, 30, 30);
+            background: rgb(50, 50, 50);
             display: flex;
             justify-content: center;
             align-items: center;
