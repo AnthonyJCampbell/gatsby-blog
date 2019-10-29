@@ -60,11 +60,11 @@ const ButtonSection = styled.div`
 
 
 const keywords = [
-  'blog', 'gatsby',
-  'javascript', 'react',
+  'gatsby', 'anthony campbell', 'blog',
+  'javascript', 'react', 'full-stack developer',
   'portfolio', 'golang',
-  'developer', 'wiltshire',
-  'bath', 'bristol', 'software', 'UK',
+  'developer', 'Amsterdam',
+  'back-end developer', 'Netherlands',
 ];
 
 

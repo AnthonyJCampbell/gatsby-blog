@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Matt.cat',
-    author: 'Matt',
-    description: 'Portfolio of Matt. Full stack javascript developer',
-    siteUrl: 'https://matt.cat/',
+    title: 'Anthony - Developer Extraordinaire',
+    author: 'Anthony J. Campbell',
+    description: 'Anthony\'s Portfolio. Full-Stack JavaScript Developer',
+    siteUrl: 'https://anthonycampbell.dev',
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -70,7 +70,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: 'UA-144116311-1',
       },
     },
     'gatsby-plugin-feed',

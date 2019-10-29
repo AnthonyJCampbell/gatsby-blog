@@ -34,7 +34,11 @@ const Screen = styled.div`
   position: relative;
   width: 96%;
   height: 89%;
-  background: linear-gradient(100deg, red, purple);
+  /* background: linear-gradient(100deg, red, purple); */
+  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+  /* background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%); */
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   display: flex;
