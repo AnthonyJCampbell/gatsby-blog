@@ -172,9 +172,6 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query imgQuery {
-    tiemendo: file(absolutePath: { regex: "/tiemendo.png/" }) {
-      ...fluidImage
-    }
     alpacas: file(absolutePath: { regex: "/alpacas.png/" }) {
       ...fluidImage
     }
@@ -182,6 +179,9 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     count: file(absolutePath: { regex: "/moopay.png/" }) {
+      ...fluidImage
+    }
+    tiemendo: file(absolutePath: { regex: "/tiemendo.png/" }) {
       ...fluidImage
     }
     nas: file(absolutePath: { regex: "/nas.png/" }) {
