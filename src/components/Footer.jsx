@@ -24,8 +24,8 @@ function Footer() {
   return (
     <FooterContainer>
       <Content>
-        <Logo text="Matt.cat" scrolled color="#000" />
-        <small>&copy;2019 Matt.cat</small>
+        <Logo text="Anthony Campbell" scrolled color="#000" />
+        <small>&copy;2019 AnthonyCampbell.dev</small>
       </Content>
     </FooterContainer>
   );

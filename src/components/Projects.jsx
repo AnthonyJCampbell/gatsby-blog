@@ -68,82 +68,96 @@ const Cards = styled.div`
 
 const cards = [
   {
-    title: 'Now Boom',
-    text: 'A command line tool for testing serverless functions locally.',
+    title: 'Peters Power Transmission',
+    text: 'Website for a Dutch electrical engineering firm.',
     buttons: [
       {
-        text: '',
-        link: '',
+        text: 'VISIT',
+        link: 'https://peters.nl',
+      },
+    ],
+  },
+  {
+    title: 'Boost Amsterdam',
+    text: 'Website for Dutch non-profit helping refugees and immigrants acclimatize.',
+    buttons: [
+      {
+        text: 'VISIT',
+        link: 'https://boostamsterdam.nl/',
+      },
+    ],
+  },
+  
+  {
+    title: 'Tipeasy',
+    text: 'Web and mobile app for tipping waiters directly and securely.',
+    buttons: [
+      {
+        text: 'VISIT',
+        link: 'https://tipsease-1.netlify.com/',
       },
       {
         text: 'GITHUB',
-        link: 'https://github.com/mattshardman/now-boom',
-      },
-    ],
-  },
-  {
-    title: 'Downswood Alpacas',
-    text: 'A website for a rural Alpaca walking company. Built with Gatsby.js.',
-    buttons: [
-      {
-        text: 'VISIT',
-        link: 'https://downswoodalpacas.co.uk',
-      },
-    ],
-  },
-  {
-    title: 'Wack Jack',
-    text: 'Wack jack is a black jack progressive web-app built using next.js',
-    buttons: [
-      {
-        text: 'VISIT',
-        link: 'https://blackjack.now.sh',
-      },
-
-    ],
-  },
-  {
-    title: 'Moopay',
-    text: 'Web application for paying invoices using UK open banking APIs.',
-    buttons: [
-      {
-        text: 'VISIT',
-        link: 'https://www.moopay.co.uk',
-      },
-    ],
-  },
-  {
-    title: 'N.A.S',
-    text: 'Website for an aviation consultancy, specialising in flights into Antarctica.',
-    buttons: [
-      {
-        text: 'VISIT',
-        link: 'https://www.nascorporation.biz',
+        link: 'https://github.com/tip-easy/Tip-Easy',
       },
     ],
   },
 
   {
-    title: 'Hire Products',
-    text: 'A Lambda build week project made with vanilla js, and less.',
+    title: 'Tieme Ndo',
+    text: 'A customer and resource management tool for a Ghanese non-profit.',
     buttons: [
       {
         text: 'VISIT',
-        link: 'https://airproducts.now.sh',
+        link: 'https://5d8e1ebe572fc40008e829e8--tieme-ndo.netlify.com/',
       },
-    ],
-  },
-  {
-    title: 'Training Platform',
-    text: 'A training platform for ground handling staff in a Chilean airport.',
-    buttons: [
       {
-        text: 'VISIT',
-        link: 'https://raaltraining2018.herokuapp.com',
+        text: 'GITHUB',
+        link: 'https://github.com/tieme-ndo/',
       },
     ],
   },
 
+  {
+    title: 'EatMyRide',
+    text: 'Website for customized meal planning for top athletes',
+    buttons: [
+      {
+        text: 'VISIT',
+        link: 'https://www.eatmyride.com/',
+      },
+    ],
+  },
+
+  {
+    title: 'ARQ',
+    text: 'Remote team and project management tool, built during Lambda Build Week.',
+    buttons: [
+      {
+        text: 'VISIT',
+        link: 'https://team-home-2.netlify.com/',
+      },
+      {
+        text: 'GITHUB',
+        link: 'https://github.com/tipsease/',
+      },
+    ],
+  },
+
+  {
+    title: 'Essentialism',
+    text: 'A Lambda back-end Build Week project, made w/ Postgres and Express',
+    buttons: [
+      {
+        text: 'VISIT',
+        link: 'https://mystifying-volhard-f70eb0.netlify.com/index.html',
+      },
+      {
+        text: 'GITHUB',
+        link: 'https://github.com/build-week-essentialism/essentialism-backend'
+      },
+    ],
+  },
 ];
 
 export const fluidImage = graphql`
@@ -158,7 +172,7 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query imgQuery {
-    now: file(absolutePath: { regex: "/now.png/" }) {
+    tiemendo: file(absolutePath: { regex: "/tiemendo.png/" }) {
       ...fluidImage
     }
     alpacas: file(absolutePath: { regex: "/alpacas.png/" }) {

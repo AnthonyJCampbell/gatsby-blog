@@ -100,6 +100,7 @@ function Card({
       <Date>
         { buttons.map(button => (
           <a
+            style={{color: '#f43b47'}}
             key={button.text}
             href={button.link}
             target="_blank"

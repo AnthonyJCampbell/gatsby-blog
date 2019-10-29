@@ -54,16 +54,16 @@ const Body = styled.div`
     }
 `;
 
-const text = [`I\'m Matt. I am a full-stack Javascript developer 
-from the UK. I started working at Yahoo working on a JavaScript application 
-called Cake.`,
-`The purpose of the application was only to send some form data to the developer via the server .
-But in all my life i have NEVER encountered any such problem with any software that uses the "GET/POST" / "POST" / 'PUT" / "DELETE" functions in this manner.`,
-'What this application is actually doing in this particular case is:  it\'s going to ask the developer to choose, where to send the response to in a cookie which it will cache for some time.',
-'When that time comes for the developer to look for the response, then they\'ll simply get the response from the browser, no cookies will have been set.',
-'It\'s actually pretty simple. All you have to do is pass a valid hash to this function .',
-`If you try to make the response any more complicated you will find that your data will be rejected due to the way that POST and GET have been designed. It's called this:
-"response": { "type": "GET", "method": "PUT", "headers": { "Authorization": "Bearer foo", "Content-Type": "application/p+json" }, "status": 200"`, 'I\'m not sure if any one ever reads these, so the above was generated using Open APIs text generation algorithm, because it amused me. If you want to know anything true about me, please contact me.']; // eslint-display-line
+const text = [`I'm Anthony and I am a Full-Stack Javascript developer 
+  from The Netherlands. I started working at Yahoo working on a JavaScript application 
+  called Cake.`,
+  `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolor sit ex officia et explicabo eaque laborum unde impedit corrupti porro adipisci veritatis voluptatem officiis incidunt nesciunt aliquam neque error ad, quam maxime, quo cumque ab. `,
+  `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolor sit ex officia et explicabo eaque laborum unde impedit corrupti porro adipisci veritatis voluptatem officiis incidunt nesciunt aliquam neque error ad, quam maxime, quo cumque ab. `,
+  // 'When that time comes for the developer to look for the response, then they\'ll simply get the response from the browser, no cookies will have been set.',
+  // 'It\'s actually pretty simple. All you have to do is pass a valid hash to this function .',
+  // `If you try to make the response any more complicated you will find that your data will be rejected due to the way that POST and GET have been designed. It's called this:
+  // "response": { "type": "GET", "method": "PUT", "headers": { "Authorization": "Bearer foo", "Content-Type": "application/p+json" }, "status": 200"`, 
+  'I\'m not sure if any one ever reads these, so the above was generated using Open APIs text generation algorithm, because it amused me. If you want to know anything true about me, please contact me.']; // eslint-display-line
 
 function AboutMe() {
   return (
@@ -71,7 +71,6 @@ function AboutMe() {
       <SpinningElements />
       <Sheet>
         <Heading>
-          <Avatar />
           <h1>About Me</h1>
         </Heading>
         <Body>

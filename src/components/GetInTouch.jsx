@@ -41,7 +41,7 @@ function GetInTouch() {
   return (
     <Container>
       <Text>
-        <h1>Like what you see?</h1>
+        <h1>Want more?</h1>
       </Text>
       <Link to="/contact" style={{ width: '200px' }}>
         <MainButton
@@ -49,7 +49,7 @@ function GetInTouch() {
           color="#fff"
         // background="#24292e"
           width="200px"
-          background="#ff0078"
+          background="#f43b47"
         />
       </Link>
     </Container>
