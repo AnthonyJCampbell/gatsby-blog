@@ -89,6 +89,21 @@ const cards = [
   },
   
   {
+    title: 'Tieme Ndo',
+    text: 'A customer and resource management tool for a Ghanese non-profit.',
+    buttons: [
+      {
+        text: 'VISIT',
+        link: 'https://5d8e1ebe572fc40008e829e8--tieme-ndo.netlify.com/',
+      },
+      {
+        text: 'GITHUB',
+        link: 'https://github.com/tieme-ndo/',
+      },
+    ],
+  },
+  
+  {
     title: 'Tipeasy',
     text: 'Web and mobile app for tipping waiters directly and securely.',
     buttons: [
@@ -103,20 +118,6 @@ const cards = [
     ],
   },
 
-  {
-    title: 'Tieme Ndo',
-    text: 'A customer and resource management tool for a Ghanese non-profit.',
-    buttons: [
-      {
-        text: 'VISIT',
-        link: 'https://5d8e1ebe572fc40008e829e8--tieme-ndo.netlify.com/',
-      },
-      {
-        text: 'GITHUB',
-        link: 'https://github.com/tieme-ndo/',
-      },
-    ],
-  },
 
   {
     title: 'EatMyRide',
@@ -172,25 +173,25 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query imgQuery {
-    alpacas: file(absolutePath: { regex: "/alpacas.png/" }) {
+    peters: file(absolutePath: { regex: "/peters.png/" }) {
       ...fluidImage
     }
-    wackJack: file(absolutePath: { regex: "/wack-jack.png/" }) {
-      ...fluidImage
-    }
-    count: file(absolutePath: { regex: "/moopay.png/" }) {
+    boostamsterdam: file(absolutePath: { regex: "/boostamsterdam.png/" }) {
       ...fluidImage
     }
     tiemendo: file(absolutePath: { regex: "/tiemendo.png/" }) {
       ...fluidImage
     }
-    nas: file(absolutePath: { regex: "/nas.png/" }) {
+    tipsease: file(absolutePath: { regex: "/tipsease.png/" }) {
       ...fluidImage
     }
-    products: file(absolutePath: { regex: "/products.png/" }) {
+    eatmyride: file(absolutePath: { regex: "/eatmyride.png/" }) {
       ...fluidImage
     }
-    raal: file(absolutePath: { regex: "/raal.png/" }) {
+    arq: file(absolutePath: { regex: "/arq.png/" }) {
+      ...fluidImage
+    }
+    essentialism: file(absolutePath: { regex: "/essentialism.png/" }) {
       ...fluidImage
     }
   }
