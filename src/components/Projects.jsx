@@ -68,16 +68,6 @@ const Cards = styled.div`
 
 const cards = [
   {
-    title: 'Peters Power Transmission',
-    text: 'Website for a Dutch electrical engineering firm.',
-    buttons: [
-      {
-        text: 'VISIT',
-        link: 'https://peters.nl',
-      },
-    ],
-  },
-  {
     title: 'Boost Amsterdam',
     text: 'Website for Dutch non-profit helping refugees and immigrants acclimatize.',
     buttons: [
@@ -87,7 +77,16 @@ const cards = [
       },
     ],
   },
-  
+  {
+    title: 'Peters Power Transmission',
+    text: 'Website for a Dutch electrical engineering firm.',
+    buttons: [
+      {
+        text: 'VISIT',
+        link: 'https://peters.nl',
+      },
+    ],
+  },
   {
     title: 'Tieme Ndo',
     text: 'A customer and resource management tool for a Ghanese non-profit.',
@@ -102,7 +101,6 @@ const cards = [
       },
     ],
   },
-  
   {
     title: 'Tipeasy',
     text: 'Web and mobile app for tipping waiters directly and securely.',
@@ -117,8 +115,6 @@ const cards = [
       },
     ],
   },
-
-
   {
     title: 'EatMyRide',
     text: 'Website for customized meal planning for top athletes',
@@ -129,7 +125,6 @@ const cards = [
       },
     ],
   },
-
   {
     title: 'ARQ',
     text: 'Remote team and project management tool, built during Lambda Build Week.',
@@ -144,7 +139,6 @@ const cards = [
       },
     ],
   },
-
   {
     title: 'Essentialism',
     text: 'A Lambda back-end Build Week project, made w/ Postgres and Express',

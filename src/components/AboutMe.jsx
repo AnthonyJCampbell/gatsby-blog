@@ -54,16 +54,13 @@ const Body = styled.div`
     }
 `;
 
-const text = [`I'm Anthony and I am a Full-Stack Javascript developer 
-  from The Netherlands. I started working at Yahoo working on a JavaScript application 
-  called Cake.`,
-  `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolor sit ex officia et explicabo eaque laborum unde impedit corrupti porro adipisci veritatis voluptatem officiis incidunt nesciunt aliquam neque error ad, quam maxime, quo cumque ab. `,
-  `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolor sit ex officia et explicabo eaque laborum unde impedit corrupti porro adipisci veritatis voluptatem officiis incidunt nesciunt aliquam neque error ad, quam maxime, quo cumque ab. `,
-  // 'When that time comes for the developer to look for the response, then they\'ll simply get the response from the browser, no cookies will have been set.',
-  // 'It\'s actually pretty simple. All you have to do is pass a valid hash to this function .',
-  // `If you try to make the response any more complicated you will find that your data will be rejected due to the way that POST and GET have been designed. It's called this:
-  // "response": { "type": "GET", "method": "PUT", "headers": { "Authorization": "Bearer foo", "Content-Type": "application/p+json" }, "status": 200"`, 
-  'I\'m not sure if any one ever reads these, so the above was generated using Open APIs text generation algorithm, because it amused me. If you want to know anything true about me, please contact me.']; // eslint-display-line
+const text = [`Hi! I'm Anthony and I am a Full-Stack Javascript developer from The Netherlands. Since this is my portfolio, I assume that's why you're here.`,
+  `I started programming around the age of 14, playing around with basic HTML and CSS, along with Python and PHP. Through copious amount of trial and error, I actually became somewhat decent and started building websites for friends and local businesses. This allowed me to pay my way through college to get my business degree. It became pretty clear that I wanted to become a better developer so I applied to Lambda School's Web Development program. `,
+  `Just like moms are not supposed to have a favorite child (Hint: it wasn't me), I still prefer some technologies over others. For the most part, I use a MERN stack in my projects but I've been playing around with Next.js, Flask, and PostGres lately. At the moment, I am diving deeper into the particulars of Node and vanilla Javascript. If you don't know, monads are game-changers!
+  `,
+  `I don't just live for code, though. I'm a former semi-professional MMA fighter, and an aspiring powerlifter. I sporadically write on my blog about programming, life hacks, and books (though I'm trying to be more consistent). Also, I usually read anywhere between 50-70 books per year and I've got a near-encyclopedic knowledge of everything to do with Star Wars.`,
+  `I'm not sure if people even read this, so if you've read all the way to this last paragraph, you're probably an awesome person and/or interested in my skills by now. If so, feel free to reach out to me for a cup of coffee or a quick call. First coffee is on me.`,
+  ]; // eslint-display-line
 
 function AboutMe() {
   return (

@@ -56,18 +56,18 @@ function IPhoneApp() {
     <Container>
       <Heading>
         <Avatar />
-        <small style={{ padding: 5, color: '#ff0078' }}>Matt</small>
+        <small style={{ padding: 5, color: '#ff0078' }}>Anthony</small>
         <BackArrow><Arrow style={{ fontSize: 12 }} /></BackArrow>
       </Heading>
       <Text>
         <Fade delay={1500} left>
           <MessageBubble>
-          Hi I&apos;m Matt.
+          Hi I&apos;m Anthony!
           </MessageBubble>
         </Fade>
         <Fade delay={2000} left>
           <MessageBubble>
-          I am a full-stack javascript developer from the UK.
+          I am a full-stack javascript developer from the Netherlands.
           </MessageBubble>
         </Fade>
       </Text>
