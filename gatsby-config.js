@@ -77,8 +77,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Matt.cat blog',
-        short_name: 'Matt.cat',
+        name: 'Portfolio of Anthony Campbell',
+        short_name: 'AnthonyCampbell.dev',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#000',

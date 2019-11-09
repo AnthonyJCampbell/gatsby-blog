@@ -122,7 +122,7 @@ function Contact() {
               </ContactForm>
               <Fade delay={1800}>
                 <p>- or -</p>
-                <p>Email me: matt@matt.cat</p>
+                <p>Email me: Anthony@AnthonyJCampbell.com</p>
               </Fade>
             </Container>
           )
