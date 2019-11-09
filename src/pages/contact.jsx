@@ -59,6 +59,14 @@ const SuccessAvatar = styled.div`
   box-shadow: 0 4px 25px rgba(0,0,0,0.2);
 `;
 
+  const StyledLink = styled.a`
+    color: #f43b47;
+    transform: 1s;
+    &:hover {
+      color: #f43b47;
+    }
+  `
+
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -80,6 +88,8 @@ function Contact() {
       setSent(true);
       setError(err);
     }
+
+    
   };
 
   return (
@@ -105,8 +115,8 @@ function Contact() {
             </Container>
           )
           : (
-            <Container>
-              <ContactForm onSubmit={submitHandler}>
+            <Container >
+              {/* <ContactForm onSubmit={submitHandler}>
                 <Fade delay={1000}>
                   <Input type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
                 </Fade>
@@ -119,10 +129,13 @@ function Contact() {
                 <Fade delay={1600}>
                   <MainButton type="submit" text="send" background="#24292e" color="#fff" width="300px" mobWidth="300px" />
                 </Fade>
-              </ContactForm>
+              </ContactForm> */}
               <Fade delay={1800}>
+                <p style={{ textAlign: 'center'}}>Email me: <StyledLink href="mailto:anthony@anthonyjcampbell.com">Anthony @ AnthonyJCampbell.com</StyledLink></p>
                 <p>- or -</p>
-                <p>Email me: Anthony@AnthonyJCampbell.com</p>
+                <p style={{ textAlign: 'center'}}>Follow me on Twitter: <StyledLink href="twitter.com/anthonyjcampbel">@AnthonyJCampbel</StyledLink></p>
+                <p>- or -</p>
+                <p style={{ textAlign: 'center'}}>Read my writing at: <StyledLink href="anthonyjcampbell.com">AnthonyJCampbell.com</StyledLink></p>
               </Fade>
             </Container>
           )
