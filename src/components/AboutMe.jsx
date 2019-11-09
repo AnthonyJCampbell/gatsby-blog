@@ -55,11 +55,10 @@ const Body = styled.div`
 `;
 
 const text = [`Hi! I'm Anthony and I am a Full-Stack Javascript developer from The Netherlands. Since this is my portfolio, I assume that's why you're here.`,
-  `I started programming around the age of 14, playing around with basic HTML and CSS, along with Python and PHP. Through copious amount of trial and error, I actually became somewhat decent and started building websites for friends and local businesses. This allowed me to pay my way through college to get my business degree. It became pretty clear that I wanted to become a better developer so I applied to Lambda School's Web Development program. `,
-  `Just like moms are not supposed to have a favorite child (Hint: it wasn't me), I still prefer some technologies over others. For the most part, I use a MERN stack in my projects but I've been playing around with Next.js, Flask, and PostGres lately. At the moment, I am diving deeper into the particulars of Node and vanilla Javascript. If you don't know, monads are game-changers!
-  `,
-  `I don't just live for code, though. I'm a former semi-professional MMA fighter, and an aspiring powerlifter. I sporadically write on my blog about programming, life hacks, and books (though I'm trying to be more consistent). Also, I usually read anywhere between 50-70 books per year and I've got a near-encyclopedic knowledge of everything to do with Star Wars.`,
-  `I'm not sure if people even read this, so if you've read all the way to this last paragraph, you're probably an awesome person and/or interested in my skills by now. If so, feel free to reach out to me for a cup of coffee or a quick call. First coffee is on me.`,
+  `I started programming around the age of 14 when I learned to mod Minecraft. Through copious amount of trial and error, I became somewhat decent and started building websites for local businesses, allowing me to pay my way through college. I wanted to become a better developer so I joined Lambda School's Web Development program. `,
+  `Just like moms secretly have a favorite child (Hint: it wasn't me), I have my favorite technologies. I primarily use a MERN stack in my projects but I've been playing around with Next.js, Flask, and PostGres lately. At the moment, I am diving deeper into Node and vanilla JS. Monads are game-changers!`,
+  `I do more than just code though. I'm a former semi-professional MMA fighter and an aspiring powerlifter. I sporadically write on my blog though I'm trying to be more consistent. I usually read 50-70 books per year and I've got a near-encyclopedic knowledge of Star Wars lore.`,
+  `I'm not sure if people even read this, so if you've read everything so far, you're probably an awesome person and/or interested in my skills. If so, feel free to reach out to me for a cup of coffee or a quick call. First coffee is on me.`,
   ]; // eslint-display-line
 
 function AboutMe() {

@@ -1,7 +1,7 @@
 import Typography from "typography"
 import fun from "typography-theme-funston"
 
-fun.baseFontSize = "16px"
+fun.baseFontSize = "18px"
 fun.headerFontFamily = ["Source Sans Pro"]
 fun.headerWeight = 800
 
