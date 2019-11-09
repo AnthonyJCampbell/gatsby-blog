@@ -39,7 +39,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	from := mail.NewEmail("Anthony Campbell", "someone@anthonyjcampbell.com")
+	from := mail.NewEmail("Anthony Campbell", "anthony@anthonyjcampbell.com")
 	subject := "New message to Anthony Campbell"
 	to := mail.NewEmail("Example User", "anthony@anthonyjcampbell.com")
 	plainTextContent := msg.Name + msg.Email + msg.Message
