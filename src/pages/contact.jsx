@@ -133,9 +133,9 @@ function Contact() {
               <Fade delay={1800}>
                 <p style={{ textAlign: 'center'}}>Email me: <StyledLink href="mailto:anthony@anthonyjcampbell.com">Anthony @ AnthonyJCampbell.com</StyledLink></p>
                 <p>- or -</p>
-                <p style={{ textAlign: 'center'}}>Follow me on Twitter: <StyledLink href="twitter.com/anthonyjcampbel">@AnthonyJCampbel</StyledLink></p>
+                <p style={{ textAlign: 'center'}}>Follow me on Twitter: <StyledLink href="https://twitter.com/anthonyjcampbel">@AnthonyJCampbel</StyledLink></p>
                 <p>- or -</p>
-                <p style={{ textAlign: 'center'}}>Read my writing at: <StyledLink href="anthonyjcampbell.com">AnthonyJCampbell.com</StyledLink></p>
+                <p style={{ textAlign: 'center'}}>Read my writing at: <StyledLink href="https://anthonyjcampbell.com">AnthonyJCampbell.com</StyledLink></p>
               </Fade>
             </Container>
           )
