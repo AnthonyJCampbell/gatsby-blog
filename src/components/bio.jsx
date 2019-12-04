@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>Matt</strong>.
+              Written by <strong>Anthony Campbell</strong>.
             </p>
           </div>
         );

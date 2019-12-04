@@ -43,15 +43,27 @@ function GetInTouch() {
       <Text>
         <h1>Want more?</h1>
       </Text>
-      <Link to="/contact" style={{ width: '200px' }}>
-        <MainButton
-          text="Get in touch"
-          color="#fff"
-        // background="#24292e"
-          width="200px"
-          background="#f43b47"
-        />
-      </Link>
+      <div>
+        <Link to="/contact" style={{ width: '200px' }}>
+          <MainButton
+            text="Get in touch"
+            color="#fff"
+          // background="#24292e"
+            width="200px"
+            background="#f43b47"
+          />
+        </Link>
+        <br />
+        <a href="https://drive.google.com/open?id=100eKgTQ7wMnnkp4lbnSYq2qyxvrzLDAf" target="_blank" rel="noopener noreferrer" style={{ width: '200px' }}>
+          <MainButton
+            text="My Resume"
+            color="#fff"
+          // background="#24292e"
+            width="200px"
+            background="#f43b47"
+          />
+        </a>
+      </div>
     </Container>
   );
 }

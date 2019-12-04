@@ -31,7 +31,7 @@ const Sheet = styled.div`
     position: absolute;
     border: 1px #dadce0 solid;
     top: -40px;
-    min-height: 750px;
+    min-height: 400px;
     width: 600px;
     max-width: 90%;
     background: #fff;
@@ -54,13 +54,6 @@ const Body = styled.div`
     }
 `;
 
-const text = [`Hi! I'm Anthony and I am a Full-Stack Javascript developer from The Netherlands. Since this is my portfolio, I assume that's why you're here.`,
-  `I started programming around the age of 14 when I learned to mod Minecraft. Through copious amount of trial and error, I became somewhat decent and started building websites for local businesses, allowing me to pay my way through college. I wanted to become a better developer so I joined Lambda School's Web Development program. `,
-  `Just like moms secretly have a favorite child (Hint: it wasn't me), I have my favorite technologies. I primarily use a MERN stack in my projects but I've been playing around with Next.js, Flask, and PostGres lately. At the moment, I am diving deeper into Node and vanilla JS. Monads are game-changers!`,
-  `I do more than just code though. I'm a former semi-professional MMA fighter and an aspiring powerlifter. I sporadically write on my blog though I'm trying to be more consistent. I usually read 50-70 books per year and I've got a near-encyclopedic knowledge of Star Wars lore.`,
-  `I'm not sure if people even read this, so if you've read everything so far, you're probably an awesome person and/or interested in my skills. If so, feel free to reach out to me for a cup of coffee or a quick call. First coffee is on me.`,
-  ]; // eslint-display-line
-
 function AboutMe() {
   return (
     <Container>
@@ -70,7 +63,11 @@ function AboutMe() {
           <h1>About Me</h1>
         </Heading>
         <Body>
-          {text.map(each => <p>{each}</p>)}
+          <p>Hi! I&apos;m Anthony and I am a <b>Full-Stack Developer</b> from The Netherlands.</p>
+          <p>At age 14 I started programming and became pretty good through modding Minecraft and trial and error. I started building websites for local businesses and recently joined Lambda School&apos;s Web Development program. Now, I&apos;m truly committed to becoming a world-class full-stack developer.</p>
+          <p>Just like moms secretly have a favorite child, I have my favorite technologies. I primarily use a <b>MERN stack</b> in my projects but I&apos;m experimenting with Next.js, Flask, and PostGres. I&apos;m also diving deeper into Node and vanilla JS.</p>
+          <p>I do more than just code. I&apos;m a former semi-professional MMA fighter and ice skater. I also sporadically write on my blog and I usually read 50-70 books per year. Oh, and I&apos;ve got a near-encyclopedic knowledge of Star Wars triva.</p>
+          <p>I&apos;m not sure if people even read this, so if you&apos;ve read everything so far, you:&apos;re probably an awesome person and/or interested in my skills. If so, <b>feel free to reach out</b> to me for a cup of coffee or a quick call. First coffee is on me.</p>
         </Body>
       </Sheet>
     </Container>
