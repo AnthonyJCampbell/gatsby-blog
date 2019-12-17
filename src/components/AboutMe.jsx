@@ -76,7 +76,7 @@ function AboutMe() {
         </Heading>
         <Body>
           <p>Hi! I&apos;m Anthony and I am a <b>Full-Stack Developer</b> from The Netherlands.</p>
-          <p>At age 14 I started programming and became pretty good through modding Minecraft and trial and error. I started building websites for local businesses and recently joined Lambda School&apos;s Web Development program. Now, I&apos;m truly committed to becoming a world-class full-stack developer.</p>
+          <p>I&apos;ve been programming for the past 8 years, building a number of side-projects, game mods, and running a web agency for almost 4 years. I recently completed Lambda School&apos;s Web Development program and I&apos;m looking to take the next step in my development career.</p>
           <p>Just like moms secretly have a favorite child, I have my favorite technologies. I primarily use a <b>MERN stack</b> in my projects but I&apos;m experimenting with Next.js, Flask, and PostGres. I&apos;m also diving deeper into Node and vanilla JS.</p>
           <p>I do more than just code. I&apos;m a former semi-professional MMA fighter and ice skater. I also sporadically write on my blog and I usually read 50-70 books per year. Oh, and I&apos;ve got a near-encyclopedic knowledge of Star Wars triva.</p>
           <p>I&apos;m not sure if people even read this, so if you&apos;ve read everything so far, you:&apos;re probably an awesome person and/or interested in my skills. If so, <b>feel free to reach out</b> to me for a cup of coffee or a quick call. First coffee is on me.</p>
