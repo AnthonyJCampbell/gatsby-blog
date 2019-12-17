@@ -5,12 +5,24 @@ import SpinningElements from './SpinningElements';
 
 const Container = styled.section`
     position: relative;
-    min-height: 300px;
+    min-height: 700px;
     width: 100%;
     max-width: 100%;
     display: flex;
     justify-content: center;
     z-index: 5;
+
+    @media (max-width: 900px) {
+      min-height: 480px;
+    }
+
+    @media (max-width: 585px) {
+      min-height: 600px;
+    }
+
+    @media (max-width: 430px) {
+      min-height: 720px;
+    }
 `;
 
 const Heading = styled.div`
@@ -31,7 +43,7 @@ const Sheet = styled.div`
     position: absolute;
     border: 1px #dadce0 solid;
     top: -40px;
-    min-height: 400px;
+    min-height: 40vh;
     width: 600px;
     max-width: 90%;
     background: #fff;
