@@ -67,7 +67,7 @@ function IPhoneApp() {
         </Fade>
         <Fade delay={2000} left>
           <MessageBubble>
-          I am a full-stack javascript developer from the Netherlands.
+          I am a full-stack web developer from the Netherlands.
           </MessageBubble>
         </Fade>
       </Text>

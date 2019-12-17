@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Anthony - Developer Extraordinaire',
     author: 'Anthony J. Campbell',
-    description: 'Anthony\'s Portfolio. Full-Stack JavaScript Developer',
+    description: 'Anthony\'s Portfolio. Full-Stack Web Developer',
     siteUrl: 'https://anthonycampbell.dev',
   },
   plugins: [

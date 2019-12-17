@@ -34,7 +34,7 @@ const Body = styled.pre`
     outline: none;
 `;
 
-const textData = 'My name is Anthony Campbell.\n$ I am a full-stack Javascript developer \n  and science-fiction nerd. \n$ Feel free to take a quick look around \n  and take a look at some of my work.'; //eslint-disable-line
+const textData = 'My name is Anthony Campbell.\n$ I am a full-stack web developer \n  and science-fiction nerd. \n$ Feel free to take a quick look around \n  and take a look at some of my work.'; //eslint-disable-line
 
 function Terminal() {
   const [text, setText] = useState('');
