@@ -5,7 +5,7 @@ import SpinningElements from './SpinningElements';
 
 const Container = styled.section`
     position: relative;
-    min-height: 725px;
+    min-height: 300px;
     width: 100%;
     max-width: 100%;
     display: flex;
