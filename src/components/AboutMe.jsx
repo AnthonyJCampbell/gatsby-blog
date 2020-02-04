@@ -76,7 +76,7 @@ function AboutMe() {
         </Heading>
         <Body>
           <p>Hi! I&apos;m Anthony and I am a <b>Full-Stack Developer</b> from The Netherlands.</p>
-          <p>Over the past 5 years, I&apos;ve run a web agency with over 20 completed projects, completed Lambda School&apos;s Web Development program, and built several smaller projects. I&apos;m currently looking to take the next step in my development career and move out to <b>London</b>.</p>
+          <p>Over the past 5 years, I&apos;ve run a web agency with <b>over 20 completed projects</b>, completed Lambda School&apos;s Web Development program, and built several smaller projects. I&apos;m currently looking to take the next step in my development career and move out to <b>London</b>.</p>
           <p>The <b>MERN stack</b> (MongoDB, Express, React, and Node) stack is my bread and butter. I&apos;ve also worked extensively with React Native, Python and Flask, TypeScript, and PostgreSQL. I&apos;ve recently been diving deeper into ES8+ and some of the more esoteric Node applications.
           </p>
           <p>I do more than just code, though. I sporadically write on my blog and I usually read 50-70 books per year. I&apos;m also a model rocket enthusiast. Finally,I am a former semi-professional MMA fighter and ice skater and I&apos;ve got a near-encyclopedic knowledge of Star Wars triva.</p>
