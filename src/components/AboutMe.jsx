@@ -75,10 +75,13 @@ function AboutMe() {
           <h1>About Me</h1>
         </Heading>
         <Body>
+        The MERN stack (MongoDB, Express, React, and Node) is my bread and butter. In addition, I’ve got plenty of experience with TypeScript, React Native, and Python/Flask. I use Jest for unit tests, Cypress for end-to-end testing, and have ample experience with build tools like Gulp and WebPack. As such, I’m already familiar with all the major technologies listed on the opening!
+
           <p>Hi! I&apos;m Anthony and I am a <b>Full-Stack Developer</b> from The Netherlands.</p>
-          <p>I&apos;ve been programming for the past 8 years, building a number of side-projects, game mods, and running a web agency for almost 4 years. I recently completed Lambda School&apos;s Web Development program and I&apos;m looking to take the next step in my development career.</p>
-          <p>Just like moms secretly have a favorite child, I have my favorite technologies. I primarily use a <b>MERN stack</b> in my projects but I&apos;m experimenting with Next.js, Flask, and PostGres. I&apos;m also diving deeper into Node and vanilla JS.</p>
-          <p>I do more than just code. I&apos;m a former semi-professional MMA fighter and ice skater. I also sporadically write on my blog and I usually read 50-70 books per year. Oh, and I&apos;ve got a near-encyclopedic knowledge of Star Wars triva.</p>
+          <p>Over the past 5 years, I&apos;ve run a web agency with over 20 completed projects, completed Lambda School&apos;s Web Development program, and built several smaller projects. I&apos;m currently looking to take the next step in my development career and move out to <b>London</b>.</p>
+          <p>The <b>MERN stack</b> (MongoDB, Express, React, and Node) stack is my bread and butter. I&apos;ve also worked extensively with React Native, Python and Flask, TypeScript, and PostgreSQL. I&apos;ve recently been diving deeper into ES8+ and some of the more esoteric Node applications.
+          </p>
+          <p>I do more than just code, though. I sporadically write on my blog and I usually read 50-70 books per year. I&apos;m also a model rocket enthusiast. Finally,I am a former semi-professional MMA fighter and ice skater and I&apos;ve got a near-encyclopedic knowledge of Star Wars triva.</p>
           <p>I&apos;m not sure if people even read this, so if you&apos;ve read everything so far, you&apos;re probably an awesome person and/or interested in my skills. If so, <b>feel free to reach out</b> to me for a cup of coffee or a quick call. First coffee is on me.</p>
         </Body>
       </Sheet>
