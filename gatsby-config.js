@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Anthony - Developer Extraordinaire',
+    title: 'Anthony - Full-Stack Web Developer',
     author: 'Anthony J. Campbell',
     description: 'Anthony\'s Portfolio. Full-Stack Web Developer',
     siteUrl: 'https://anthonycampbell.dev',

@@ -54,7 +54,7 @@ function GetInTouch() {
           />
         </Link>
         <br />
-        <a href="https://drive.google.com/open?id=1B8sk4Ucd30B-VIxQLTYuLR5YY-c2LiBO" target="_blank" rel="noopener noreferrer" style={{ width: '200px' }}>
+        <a href="https://drive.google.com/open?id=1TxgZKtI4tVcKcS13kN_yupzS-EQr6YUZ" target="_blank" rel="noopener noreferrer" style={{ width: '200px' }}>
           <MainButton
             text="My Resume"
             color="#fff"

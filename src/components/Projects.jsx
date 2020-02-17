@@ -68,18 +68,18 @@ const Cards = styled.div`
 
 const cards = [
   {
-    title: 'Boost Amsterdam',
-    text: 'Website for Dutch non-profit helping refugees and immigrants acclimatize.',
+    title: 'Studenten Bureau',
+    text: 'Marketing site for sourcing agency finding internships. Built w/ Laravel & jQuery',
     buttons: [
       {
         text: 'VISIT',
-        link: 'https://boostamsterdam.nl/',
+        link: 'https://www.studentenbureau.nl/',
       },
     ],
   },
   {
-    title: 'Peters Power Transmission',
-    text: 'Website for a Dutch electrical engineering firm.',
+    title: 'Peters Power Trans.',
+    text: 'Management suite & marketing site. Built w/ PHP, React, Node, Flask, and PostgreSQL.',
     buttons: [
       {
         text: 'VISIT',
@@ -89,7 +89,7 @@ const cards = [
   },
   {
     title: 'Tieme Ndo',
-    text: 'A customer and resource management tool for a Ghanese non-profit.',
+    text: 'Full management suite for a Ghanaise NGO. Built w/ React, Node, Express, and MongoDB',
     buttons: [
       {
         text: 'VISIT',
@@ -102,22 +102,18 @@ const cards = [
     ],
   },
   {
-    title: 'Tipeasy',
-    text: 'Web and mobile app for tipping waiters directly and securely.',
+    title: 'JetOrGet',
+    text: 'Comparision engine showing the price of luxury goods around the world. Built w/ Preact & Django.',
     buttons: [
       {
         text: 'VISIT',
-        link: 'https://tipsease-1.netlify.com/',
-      },
-      {
-        text: 'GITHUB',
-        link: 'https://github.com/tip-easy/Tip-Easy',
+        link: 'https://jetorget.com/',
       },
     ],
   },
   {
     title: 'EatMyRide',
-    text: 'Website for customized meal planning for top athletes',
+    text: 'App for customized meal planning for top athletes. Built w/ React Native, Flask, and MongoDB',
     buttons: [
       {
         text: 'VISIT',
@@ -126,8 +122,8 @@ const cards = [
     ],
   },
   {
-    title: 'ARQ',
-    text: 'Remote team and project management tool, built during Lambda Build Week.',
+    title: 'Hackathon Portal',
+    text: 'Platform for organizing hackathons. Built w/ React, Node, Express, and PostgreSQL',
     buttons: [
       {
         text: 'VISIT',
@@ -135,13 +131,13 @@ const cards = [
       },
       {
         text: 'GITHUB',
-        link: 'https://github.com/tipsease/',
+        link: 'https://github.com/LABS-EU3/hackton-frontend',
       },
     ],
   },
   {
     title: 'Essentialism',
-    text: 'A Lambda back-end Build Week project, made w/ Postgres and Express',
+    text: 'Back-end for task manager & planning tool based on user-values. Built w/ Postgres and Express',
     buttons: [
       {
         text: 'VISIT',
@@ -149,7 +145,7 @@ const cards = [
       },
       {
         text: 'GITHUB',
-        link: 'https://github.com/build-week-essentialism/essentialism-backend'
+        link: 'https://github.com/build-week-essentialism/essentialism-backend',
       },
     ],
   },
@@ -167,22 +163,22 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query imgQuery {
-    peters: file(absolutePath: { regex: "/peters.png/" }) {
+    boostamsterdam: file(absolutePath: { regex: "/studenten-bureau.png/" }) {
       ...fluidImage
     }
-    boostamsterdam: file(absolutePath: { regex: "/boostamsterdam.png/" }) {
+    peters: file(absolutePath: { regex: "/peters.png/" }) {
       ...fluidImage
     }
     tiemendo: file(absolutePath: { regex: "/tiemendo.png/" }) {
       ...fluidImage
     }
-    tipsease: file(absolutePath: { regex: "/tipsease.png/" }) {
+    tipsease: file(absolutePath: { regex: "/jetorget.png/" }) {
       ...fluidImage
     }
     eatmyride: file(absolutePath: { regex: "/eatmyride.png/" }) {
       ...fluidImage
     }
-    arq: file(absolutePath: { regex: "/arq.png/" }) {
+    arq: file(absolutePath: { regex: "/hackton.png/" }) {
       ...fluidImage
     }
     essentialism: file(absolutePath: { regex: "/essentialism.png/" }) {
