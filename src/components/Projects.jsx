@@ -135,20 +135,20 @@ const cards = [
       },
     ],
   },
-  {
-    title: 'Essentialism',
-    text: 'Back-end for task manager & planning tool based on user-values. Built w/ Postgres and Express',
-    buttons: [
-      {
-        text: 'VISIT',
-        link: 'https://mystifying-volhard-f70eb0.netlify.com/index.html',
-      },
-      {
-        text: 'GITHUB',
-        link: 'https://github.com/build-week-essentialism/essentialism-backend',
-      },
-    ],
-  },
+  // {
+  //   title: 'Essentialism',
+  //   text: 'Back-end for task manager & planning tool based on user-values. Built w/ Postgres and Express',
+  //   buttons: [
+  //     {
+  //       text: 'VISIT',
+  //       link: 'https://mystifying-volhard-f70eb0.netlify.com/index.html',
+  //     },
+  //     {
+  //       text: 'GITHUB',
+  //       link: 'https://github.com/build-week-essentialism/essentialism-backend',
+  //     },
+  //   ],
+  // },
 ];
 
 export const fluidImage = graphql`
